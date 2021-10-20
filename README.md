@@ -7,6 +7,5 @@ Source code for React redux todo app worskshop for RCOS based off the YouTube tu
 
 Clone the repo and run the following:
 
-- cd final
 - npm install
 - npm start
