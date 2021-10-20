@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&family=Yanone+Kaffeesatz:wght@400&display=swap');
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #2f2f2f !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.page-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Titillium Web', sans-serif;
+    overflow: hidden;
+
+	align-items: center;
+	justify-content: center;
+    /*padding: 5% 0px 0px 0px;*/
+}
+
+.main-container {
+	width: 70%;
+	max-width: 500px;
+	height: 80%;
+	margin: 0px 50px 0px 50px;
+	margin: 0px 10px 0px 10px;
+
+	border-radius: 10px;
+
+	display: flex;
+    flex-flow: column;
+	background: #323232;
+    box-shadow: rgb(255 255 255 / 51%) 0px 2px 15px;
+}
+.content-header {
+	text-align: center;
+	color: #f0f0f0;
+	padding: 10px 0px;
+}
+
+.list-group-item {
+	margin: 5px 0px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.list-group-item {
+	border-radius: 10px;
+}
+
+.todo-list {
+	flex: 1 0;
+	display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+	overflow: auto;
+	align-items: center;
+	background: #444444;
+    padding: 10px 0px;
+}
+
+.form-inline {
+    justify-content: center;
+}
+
+.list-group-item {
+	width: 90%;
+}
+
+.mt-3 {
+	color: #f0f0f0;
+	text-align: center;
+}
+
+.circle-submit {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	border: none;
+	background: #81f55e;
+	font-size: 14px;
+	text-align: center;
+	padding: 0px;
+	box-shadow: rgb(115 209 108 / 80%) 0px 0px 10px;
+}
+
+.list-group-item-success {
+    color: #ffffff;
+    background-color: #93ffab;
+}
